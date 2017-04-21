@@ -1,21 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" ng-app="learningApp">
-	<head>
-		<meta charset="utf-8">
-		<title>Learning MEAN Stack</title>
-		<script src="/js/Angular/Angular-min-1.5.8.js"></script>
-        <script src="/js/Angular/Angular-route.min-1.5.8.js"></script>
-        <script src="/js/Controllers/appController.js"></script>
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-	</head>
-    <body>
-        <div ng-view></div>
-        <div ng-controller="headerController">
-             <div ng-include="header.url"></div>
-        </div>
-        <!--<div ng-controller="footerController">
+
+<head>
+    <meta charset="utf-8">
+    <title>Learning MEAN Stack</title>
+    <script src="/js/Angular/Angular-min-1.5.8.js"></script>
+    <script src="/js/Angular/Angular-route.min-1.5.8.js"></script>
+    <script src="/js/Controllers/appController.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap_3.3.7.min.css">
+</head>
+
+<body>
+    <div ng-view></div>
+    <div ng-controller="headerController">
+        <div ng-include="header.url"></div>
+    </div>
+    <div ng-controller="centerController">
+        <div ng-include="centerContent.url"></div>
+    </div>
+
+    <!--<div ng-controller="footerController">
              <div ng-include="=footer.url"></div>
         </div>-->
-    </body>
+</body>
 
 </html>

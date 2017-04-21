@@ -6,7 +6,7 @@ body {
   /*color: */
 }
 
-a {
+/*a {
   color: #00B7FF;
 }
 .navbar {
@@ -15,19 +15,20 @@ a {
 }
 .navbar-list {
   display:inline;
-  /*display:block;*/
-}
+  /*display:block;
+}*/
 
-.navbar1 {
+.navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     /*color: #0d3068;*/
-    background-color: #494848;
+    background-color: #565555;
+     /*#494848;*/
 }
 
-.navbar-list1 {
+.navbar-list {
     float: right;
     display: block;
     color: white;
@@ -53,8 +54,8 @@ li a {
     text-decoration: none;
 }
 
-.navbar-list1:hover {
-    background-color: #045be8;
+.navbar-list:hover {
+    background-color: #111111;;
      /*#111111;*/
 }
 
