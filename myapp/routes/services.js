@@ -7,8 +7,8 @@ router.get('/getHeaderList', function (req, res, next) {
     var itemsList = [
         { name: 'REFERENCES' },
         { name: 'TESTING' },
-        { name: 'HOME' },
-        { name: 'NODEJS' }
+        { name: 'NODEJS' },
+        { name: 'HOME' }
     ];
     response.items = itemsList;
     res.status(200).send(response);
